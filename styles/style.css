@@ -275,6 +275,7 @@
     margin: 24px 0px;
     border-radius: 8px;
     background: rgb(0, 106, 80);
+    cursor: pointer;
 }
 
 .donate{
@@ -312,9 +313,9 @@ text-align: center;
     align-items: center;
 }
 
-button : hover{
+/* button : hover{
     background-color: rgb(0, 106, 80); 
-}
+} */
 
 .donate .one, .two, .five, .ten{
     box-sizing: border-box;
@@ -338,6 +339,7 @@ button : hover{
     font-family: Fira Sans;
     font-weight: bolder; 
     font-size: x-large;
+    cursor: pointer;
 }
 
 .donate .two{
@@ -409,6 +411,7 @@ button : hover{
     margin: 24px 0px;
     border-radius: 0px 8px 8px 0px;
     background: rgb(0, 106, 80);
+    cursor: pointer;
 }
 
 .final{

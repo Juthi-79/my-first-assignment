@@ -224,7 +224,6 @@
     order: 1;
     flex-grow: 0;
     /* background-color: aquamarine; */
-
     /* background-color:rgb(198, 228, 214); */
     font-family: Fira Sans;
     padding: 0px 60px;
@@ -275,5 +274,135 @@
     flex-grow: 0;
     margin: 24px 0px;
     border-radius: 8px;
+    background: rgb(0, 106, 80);
+}
+
+.donate{
+    width: 1100px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: center;
+    gap: 32;
+    padding: 0px 80px;
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 20px 160px 20px 250px;
+    font-family: Fira Sans;
+    background-color: aquamarine;
+}
+
+.donate .title{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 900px;
+text-align: center;
+}
+
+.fixed-amount{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate .one, .two, .five, .ten{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+
+    width: 240px;
+    height: 80px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24;
+    padding: auto;
+    margin: 15px 15px 25px;
+    text-align: center;
+
+    color: black;
+    font-family: Fira Sans;
+    font-weight: bolder; 
+    font-size: x-large;
+}
+
+.donate .two{
+    background-color: rgb(198, 228, 214);
+}
+.donate #amount{
+    width: 840px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+}
+
+.subscribe{
+    font-family: Fira Sans;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    position: static;
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 26px;
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    margin: 0px 140px 20px 280px;
+}
+.sub-email{
+    display: flex;
+    flex-direction: row;
+    flex: none;
+    order: 5;
+}
+.email{
+    width: 700px;
+    height: 40px;
+    border: none;
+    text-align: left;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    padding-left: 40px;
+}
+
+.sub-btn{
+    position: static;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    border: none;
+    width: 139px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 13px 26px 13px 26px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 24px 0px;
+    border-radius: 0px 8px 8px 0px;
     background: rgb(0, 106, 80);
 }

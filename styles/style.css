@@ -1,14 +1,208 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 .banner{
-    background-color: #C6E4D6;
-    width: 280px;
-    height: 60px;
+    display: flex;
+    background-color:rgb(198, 228, 214);
+    font-family: Fira Sans;
+    padding: 80px 100px;
+    border-radius: 24px;
+    margin: 80px 160px;
+}
+
+.banner p{
+    color: rgba(14, 14, 14, 0.5);
+    
+    Letter spacing: 0%
+    Align: Align left
+}
+
+.banner h1{
+    font-family: Fira Sans;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn{
     position: static;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    border: none;
+    width: 270px;
+    height: 56px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 64;
-    padding: 80px 100px 80px 100px;
+    gap: 48;
+    padding: 17px 34px 17px 34px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 24px 0px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+}
+/* pillars of Bangladesh 2.0 */
+.pillar{
+    margin: 80px 160px;
+    font-family: Fira Sans;
+    background-color:rgb(245, 245, 245);
+}
+
+.pillar-card{
+    display: flex;
+    padding: 24px;
+    background-color: rgb(245, 245, 245);
+    margin: 50px 0;
+
+}
+.pc-1{
+    padding: 24px;
+    margin: 0 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.pc-2{
+    padding: 24px;
+    margin: 0 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.pc-3{
+    padding: 24px;
+    margin: 0 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.pc-4{
+    padding: 24px;
+    margin: 0 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.card-btn-dt{ 
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+    padding: 11px 20px 11px 20px;
+    font-family: Fira Sans;
+    font-size: 11px;
+    font-weight: 600px;
+    border: none;
+    width: 122px;
+}
+.card-btn-ge{ 
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    color: rgb(255, 255, 255);
+    padding: 11px 20px 11px 20px;
+    font-family: Fira Sans;
+    font-size: 11px;
+    font-weight: 600px;
+    border: none;
+    width: 122px;
+    
+}
+.card-btn-mi{
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    color: rgb(255, 255, 255);
+    padding: 11px 20px 11px 20px;
+    font-family: Fira Sans;
+    font-size: 11px;
+    font-weight: 600px;
+    border: none;
+    width: 122px;
+    
+}
+
+.card{
+    font-family: Fira Sans;
+    position: static;
+    width: 1280px;
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 80px 160px;
+    background-color:rgb(245, 245, 245);;
+}
+
+.card div{
+    
+}
+
+.card-item{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    /* background-color: blanchedalmond; */
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.card-item-dt{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin: 0px 24px;
+    width: 350px;
+    height: 300px;
+    padding: 24px;
+    background: rgba(84, 144, 245, 0.2);
+
+}
+
+.card-item-ge{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin: 0px 24px;
+    width: 350px;
+    height: 300px;
+    padding: 24px;
+    background: rgb(198, 228, 214);
+
+}
+.card-item-mi{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin: 0px 24px;
+    width: 350px;
+    height: 300px;
+    padding: 24px;
+    background: rgb(247, 235, 207);
+    
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    font-family: Fira Sans;
+    padding: 50px 70px;
+    border-radius: 24px;
+    /* background-image: url('') */
 }
